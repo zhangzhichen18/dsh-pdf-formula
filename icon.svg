@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="PDF formula">
+  <rect x="3" y="3" width="58" height="58" rx="13" fill="#1f6feb"/>
+  <path d="M19 12h17l10 10v30a2 2 0 0 1-2 2H19a2 2 0 0 1-2-2V14a2 2 0 0 1 2-2z" fill="#ffffff"/>
+  <path d="M36 12l10 10H36z" fill="#a8c7fa"/>
+  <g fill="none" stroke="#1f6feb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M36.5 28.5h-14l6 6-6 6h14"/>
+  </g>
+  <g fill="none" stroke="#1f6feb" stroke-width="2.4" stroke-linecap="round" opacity="0.55">
+    <path d="M22 47h20"/>
+    <path d="M22 52h12"/>
+  </g>
+</svg>

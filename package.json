@@ -1,0 +1,32 @@
+{
+  "name": "dsh-pdf-formula",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "PDF 公式识别 / PDF formula reader: decodes math glyphs from subset fonts by shape matching and reassembles them into LaTeX.",
+  "icon": "./icon.svg",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/zhangzhichen18/dsh-pdf-formula.git" },
+  "homepage": "https://github.com/zhangzhichen18/dsh-pdf-formula#readme",
+  "bugs": { "url": "https://github.com/zhangzhichen18/dsh-pdf-formula/issues" },
+  "keywords": ["dsh-plugin", "dsh", "deepseek-harness", "pdf", "latex", "formula"],
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "index.js",
+    "icon.svg",
+    "lib",
+    "locale"
+  ],
+  "meta": {
+    "title": "PDF 公式识别",
+    "description": "识别 PDF 中的原生公式并输出 LaTeX，附带页面文本与字体信息 / Extracts native PDF formulas as LaTeX, with page text and font details."
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

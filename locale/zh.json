@@ -1,0 +1,4 @@
+{
+  "title": "PDF 公式识别",
+  "description": "识别 PDF 中的原生公式并输出 LaTeX，附带页面文本与字体信息。"
+}
