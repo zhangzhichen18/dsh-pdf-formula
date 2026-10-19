@@ -90,6 +90,16 @@
 
 ## 安装与启用
 
+### 从 npm 安装（推荐）
+
+```bash
+dsh plugin --profile web add dsh-pdf-formula
+```
+
+也可以在 Harness 的「添加插件」对话框里填包名 `dsh-pdf-formula`，装完**重启** Harness 生效。
+
+### 从本地源码安装
+
 这是一个 bundle：`package.json` 声明 `dsh.bundle.patch`，`cordis.patch.yml` 只做一条 insert：
 
 ```yaml
